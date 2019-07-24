@@ -31,22 +31,22 @@ config.walletServiceRpcPort = 8070;
 config.blockExplorerUrl = 'http://explorer.mangocoin.online/?hash=[[TX_HASH]]#blockchain_transaction';
 
 // default remote node to connect to, set this to a known reliable node for 'just works' user experience
-config.remoteNodeDefaultHost = '3.18.105.111';
+config.remoteNodeDefaultHost = '18.224.43.204';
 
 
 // remote node list update url, set to null if you don't have one
 // for TRTL:
 // raw list: https://raw.githubusercontent.com/turtlecoin/turtlecoin-nodes-json/master/turtlecoin-nodes.json
 // filtered: https://trtl.nodes.pub/api/getNodes
-config.remoteNodeListUpdateUrl = '#';
+config.remoteNodeListUpdateUrl = '';
 
 // set to false if using raw/unfiltered node list
 config.remoteNodeListFiltered = true;
 
 // fallback remote node list, in case fetching update failed, fill this with known to works remote nodes
 config.remoteNodeListFallback = [
-  '3.15.32.95:11898',
-  '13.59.178.203:11898',
+  '18.222.184.3:11898',
+  '13.58.16.6:11898',
 ];
 config.remoteNodeCacheSupported = false;
 config.remoteNodeSslSupported = false;
