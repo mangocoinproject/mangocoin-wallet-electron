@@ -2,7 +2,7 @@
   "name": "mangocoin",
   "productName": "Mangocoin",
   "description": "Mangocoin GUI Wallet",
-  "version": "v0.0.2",
+  "version": "v0.1.0",
   "homepage": "https://github.com/mangocoinproject/mangocoin-wallet-electron",
   "repository": "https://github.com/mangocoinproject/mangocoin-wallet-electron",
   "main": "main.js",
