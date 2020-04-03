@@ -31,7 +31,7 @@ config.walletServiceRpcPort = 8070;
 config.blockExplorerUrl = 'http://explorer.mangocoin.online/?hash=[[TX_HASH]]#blockchain_transaction';
 
 // default remote node to connect to, set this to a known reliable node for 'just works' user experience
-config.remoteNodeDefaultHost = '18.224.43.204';
+config.remoteNodeDefaultHost = '35.226.166.22';
 
 
 // remote node list update url, set to null if you don't have one
@@ -47,6 +47,7 @@ config.remoteNodeListFiltered = true;
 config.remoteNodeListFallback = [
   '18.222.184.3:11898',
   '13.58.16.6:11898',
+  '35.224.155.95:11898'
 ];
 config.remoteNodeCacheSupported = false;
 config.remoteNodeSslSupported = false;
