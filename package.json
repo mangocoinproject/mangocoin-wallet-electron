@@ -2,7 +2,7 @@
   "name": "mangocoin",
   "productName": "Mangocoin",
   "description": "Mangocoin GUI Wallet",
-  "version": "v0.1.0",
+  "version": "v0.1.1",
   "homepage": "https://github.com/mangocoinproject/mangocoin-wallet-electron",
   "repository": "https://github.com/mangocoinproject/mangocoin-wallet-electron",
   "main": "main.js",
@@ -38,7 +38,7 @@
   },
   "build": {
     "appId": "lol.mangocoin.walletshell",
-    "copyright": "Copyright (c) 2018 Rixombea, Macroshock, TurtleCoin Developers",
+    "copyright": "Copyright (c) 2020 Rixombea, Macroshock, TurtleCoin, Mangocoin Developers",
     "directories": {
       "output": "dist",
       "buildResources": "build"
